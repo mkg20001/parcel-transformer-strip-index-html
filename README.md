@@ -10,7 +10,7 @@ It turns stuff like this
 <a href="/my-page/index.html"></a>
 ```
 
-...unto stuff like this
+...into stuff like this
 
 ```html
 <a href="/my-page/"></a>
