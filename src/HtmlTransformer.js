@@ -5,7 +5,7 @@ const logic = require('./logic')
 
 module.exports = new Transformer({
   async transform ({asset, config, options}) {
-    if (!options.hmr) {
+    if (!options.hot) {
       const {processedHtml} = logic(await asset.getCode())
 
       asset.setCode(processedHtml)
