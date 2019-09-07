@@ -1,0 +1,38 @@
+{
+  "main": "src/HtmlTransformer.js",
+  "engines": {
+    "node": ">= 8.0.0",
+    "parcel": "^2.0.0-alpha.1.1"
+  },
+  "dependencies": {
+    "@parcel/plugin": "^2.0.0-alpha.1.1"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "keywords": [
+    "parcel",
+    "transformer",
+    "google",
+    "fonts"
+  ],
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkg20001/parcel-transformer-strip-index-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mkg20001/parcel-transformer-strip-index-html/issues"
+  },
+  "homepage": "https://github.com/mkg20001/parcel-transformer-strip-index-html#readme",
+  "name": "parcel-transformer-strip-index-html",
+  "description": "Strips /index.html from URLs in parcel builds",
+  "version": "0.0.1"
+}
