@@ -34,5 +34,5 @@
   "homepage": "https://github.com/mkg20001/parcel-transformer-strip-index-html#readme",
   "name": "parcel-transformer-strip-index-html",
   "description": "Strips /index.html from URLs in parcel builds",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
