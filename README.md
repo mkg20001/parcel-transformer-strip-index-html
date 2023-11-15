@@ -20,13 +20,13 @@ It turns stuff like this
 
 # Usage
 
-Add parcel-transformer-google-fonts as a transformer for parcel by adding this to your `.parcelrc`
+Add parcel-transformer-strip-index-html as a transformer for parcel by adding this to your `.parcelrc`
 
 ```json
 {
   "transforms": {
     "*.html": [
-      "parcel-transformer-google-fonts"
+      "parcel-transformer-strip-index-html"
     ]
   }
 }
